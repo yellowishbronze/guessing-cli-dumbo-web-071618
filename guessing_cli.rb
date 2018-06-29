@@ -9,7 +9,7 @@ loop do
       break
     elsif input == random_num
       puts"You guessed the correct number!"
-    else 
+    else input != random_num
       puts"The computer guessed #{input}."
     end
   end
