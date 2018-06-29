@@ -10,7 +10,7 @@ loop do
     elsif input == random_num
       puts"You guessed the correct number!"
     else input != random_num
-      puts"The computer guessed #{input}."
+      puts"The computer guessed #{random_num}."
     end
   end
   
