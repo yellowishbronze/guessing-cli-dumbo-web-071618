@@ -1,9 +1,9 @@
 def run_guessing_game
-  random_num = rand(1..6)
+  random_num = rand(1..6).to_s
   puts"Guess a number between 1 and 6."
   input = gets.chomp
   while input != "exit"
-  if input.to_i == random_num
+  if input == random_num
     break
   else 
   puts"The computer guessed #{input}."
