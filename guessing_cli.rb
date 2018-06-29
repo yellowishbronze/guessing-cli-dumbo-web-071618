@@ -6,6 +6,7 @@ loop do
   input = gets.chomp
     if input == "exit"
       puts "Goodbye!"
+      break
     elsif input == random_num
       puts"You guessed the correct number!"
     else 
